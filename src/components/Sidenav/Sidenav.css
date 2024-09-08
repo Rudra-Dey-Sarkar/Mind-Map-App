@@ -1,0 +1,66 @@
+#SidenavBody {
+    background-color: white;
+    width: fit-content;
+    height: 100vh;
+    border: 1px solid grey;
+}
+
+#SidenavBody #hamburger {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+#SidenavBody #hamburger:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+
+#SidenavBody #leftarrow {
+    display: none;
+    justify-content: end;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+#SidenavBody #leftarrow:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+
+.SideNavIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SideNavIcons:nth-child(5){
+    background-color: #e3f2ff;
+}
+
+#SidenavBody .icons {
+    width: fit-content;
+    height: fit-content;
+    margin: 10px 20px 10px 20px;
+}
+
+#SidenavBody .SideNavIcons:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+
+.SideNavIcons p {
+    width: 140px;
+    margin-right: 25px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:600px){
+    #SidenavBody{
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.App{
+  display: flex;
+}
+
+.sideNav{
+  position: fixed;
+  width: 5vw;
+  z-index: 2;
+}
+
+.NavAndBody{
+  width: 95vw;
+  z-index: 1;
+  width: 100%;
+}

@@ -1,0 +1,292 @@
+.Body {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.buttons {
+    margin: auto;
+    width: 70%;
+}
+
+.buttons1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.buttons1 #add {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 40px;
+    padding: 0px 15px 0px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #2872fa;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons1 #training {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 40px;
+    padding: 0px 15px 0px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #fa2871;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons1 #training p {
+    margin-left: 5px;
+}
+
+.buttons1 #truths {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 40px;
+    padding: 0px 15px 0px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+    color: #fa2871;
+    border-radius: 5px;
+    border: 1px solid #fa2871;
+}
+
+.buttons1 #truths p {
+    margin-left: 5px;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.buttons2 .searchBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons2 .searchBox input {
+    width: 340px;
+    height: 34px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.buttons2 .searchBox label {
+    position: relative;
+    margin-left: 10px;
+    padding: 0px 5px 0px 5px;
+    z-index: 1;
+    font-size: 0.9rem;
+    top: 9px;
+    background-color: white;
+    width: fit-content;
+}
+
+
+.selections {
+    display: flex;
+    flex-direction: column;
+}
+
+.selections label {
+    position: relative;
+    margin-left: 20px;
+    padding: 0px 5px 0px 5px;
+    z-index: 1;
+    font-size: 0.9rem;
+    top: 9px;
+    background-color: white;
+    width: fit-content;
+}
+
+.selections #results {
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 15px 0px 10px;
+}
+
+.buttons2 button {
+    background-color: #2872fa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 120px;
+    height: 40px;
+}
+
+.data {
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 5px;
+    width: fit-content;
+}
+
+table {
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: Poppins, sans-serif;
+}
+
+.th1 {
+    text-align: left;
+    width: 60vw;
+    padding: 10px;
+}
+
+.th2 {
+    text-align: center;
+    width: 10vw;
+    padding: 10px;
+}
+
+.th3 {
+    text-align: center;
+    width: 10vw;
+    padding: 10px;
+}
+
+.th4 {
+    text-align: center;
+    width: 10vw;
+    padding: 10px;
+}
+
+.th5 {
+    text-align: center;
+    width: 10vw;
+    padding: 10px;
+}
+
+td {
+    font-size: 1rem;
+    font-weight: 400;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.both-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pencil, .delete:hover{
+    cursor: pointer;
+}
+
+.page-btns {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page-btns button {
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background-color: white;
+    border: none;
+}
+
+.page-btns button:hover {
+    background-color: #d3d3d3;
+}
+
+.page-btns #btn-1 {
+    background-color: #2872fa;
+    color: white;
+}
+
+
+@media(max-width:600px) {
+    .data{
+        margin-left: 0;
+    }
+    .buttons1{
+        display: grid;
+    }
+    .buttons1 #add{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .buttons1 #training{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .buttons1 #truths{
+        margin: auto;
+    }
+    .buttons2{
+        display: grid;
+    }
+    .buttons2 .searchBox input {
+        width: 90vw;
+    }
+    .buttons2 .searchBox{
+        margin: auto;
+    }
+    .buttons2 .selections{
+        width: fit-content;
+        margin: auto;
+    }
+    .buttons2 button{
+        margin: auto;
+        margin-top: 10px;
+    }
+    table{
+        border: none;
+    }
+    thead {
+        display: none;
+    }
+
+    tbody tr {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 10px;
+    }
+    tbody tr td{
+        border: none;
+        padding: 5px;
+    }
+    tbody tr td:nth-child(1){
+        text-align: left;
+       }
+    tbody tr td:nth-child(2){
+     display: none;
+    }
+    tbody tr td:nth-child(3){
+        text-align: left;
+       }
+       tbody tr td:nth-child(4){
+        text-align: left;
+       }
+       tbody tr td:nth-child(5){
+       display: flex;
+       justify-content: end;
+       }
+}
