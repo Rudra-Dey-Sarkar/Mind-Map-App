@@ -197,6 +197,8 @@ td {
 .page-btns {
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .page-btns button {
@@ -210,11 +212,15 @@ td {
     border: none;
 }
 
+.page-number-btns{
+    width: fit-content;
+}
+
 .page-btns button:hover {
     background-color: #d3d3d3;
 }
 
-.page-btns #btn-1 {
+#active{
     background-color: #2872fa;
     color: white;
 }
